@@ -1,4 +1,4 @@
-import { auth } from "../firebase/admin";
+import { auth } from "./admin-setup";
 
 async function run() {
   const user = await auth.createUser({

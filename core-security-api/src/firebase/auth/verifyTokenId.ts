@@ -1,4 +1,4 @@
-import { auth } from "../admin";
+import { auth } from "../admin-setup";
 import type { DecodedIdToken } from "firebase-admin/auth";
 
 export const verifyTokenId = async(tokenId: string): Promise<DecodedIdToken | null> => {
